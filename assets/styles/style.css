@@ -1,0 +1,220 @@
+body{
+    background-color: rgba(99, 99, 99, 0.442);
+    background-color: rgb(89, 92, 197)
+}
+.logo{
+    width: 20vh;
+}
+header{
+    min-height: 33vh;
+    width: 100%;
+}
+#navbarNav{
+    width: 60rem;
+    gap: 1vh;
+    font-size: 5mm;
+}
+.nav-link{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.4vh;
+    background-color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.442);
+    transition: .5s;
+}
+.navbar.navbar-expand-lg.bg-gray{
+    height: 8vh;
+    background-color: gray
+}
+.home{
+    border: 0.5px solid black;
+    height: 25vh;
+    width: 100%;
+    background-image: url(https://i.postimg.cc/KvsSK8cj/Electronic-Fest.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-size: 15mm;
+    color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+    /* MAIN */
+
+main{
+    min-height: 60vh;
+    background-color: rgb(89, 92, 197)
+}
+.checks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 10vh;
+    flex-wrap: wrap;
+    gap: 3vh;
+    margin-left: 2vh;
+}
+.mainchecks{
+    display: flex;
+    gap: 10vh
+}
+.d-flex{
+    width: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prices{
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    display: flex;
+}
+#cardd{
+    margin-top: 1.5vh;
+    gap: 3vh;
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+        /* FOOTER */
+footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.395);
+    justify-content: space-between;
+    min-height: 8vh;
+}
+.afooter{
+    display: flex;
+
+}
+.cohort{
+    text-decoration: none;
+    font-size: 7mm;
+    margin-right: 4vh;
+    align-self: center;
+
+}        
+
+@media (max-width: 768px)
+{
+    .checks{
+        flex-direction: column;
+        align-items: flex-start;
+        min-height: 60vh;
+    }
+    .d-flex{
+        flex-direction: column;
+        align-self: center;
+        width: 70%;   
+    }
+    .mainchecks{
+        gap: 10vh;
+    }
+    .form-control.me-2{
+        width: 100%;
+    }
+}
+
+            /* CONTACT */
+
+.formcontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+            /* STATS */
+table, tr, th, td{
+    border: 2px solid black;
+    font-size: 6mm;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.tablec{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: .1vh;
+    flex-wrap: wrap;
+}
+td{
+    font-size: 5mm;
+    color: black;
+}
+th{
+    background-color: gray;
+}
+.details{
+    gap: 3vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#details{
+    gap: 0;
+}
+.card5{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-fluid{
+    width: 50vh;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    margin-left: 1vh;
+    border: 1px solid black;
+}
+.card.mb-3{
+    background-color: rgba(240, 248, 255, 0.482);
+    width: 100%;
+    margin-top: 3vh;
+} 
+
+.col-md-4{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+.card-body{
+    text-align: center;
+}
+h1{
+    background-color: rgba(0, 0, 0, 0.614);
+}
+.details{
+    background-color: rgba(18, 0, 179, 0.426);
+    margin-top: 10vh;
+}
+.tablec2{
+    width: 100%;
+    justify-content: center;
+}
+.td1{
+    background-color: rgba(186, 159, 248, 0.6);
+}
+.tablec3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.flextabla{
+    display: flex;
+   
+}
+.tablec4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
